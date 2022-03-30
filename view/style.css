@@ -1,0 +1,24 @@
+
+#boxCalculadora {
+    width: 70%;
+    margin-left: 14%;
+    margin-top: 20%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;   
+   }
+   
+   #calcular {
+       width: 30%;
+       height: 40px;
+       margin-top: 5%;
+       margin-left: 35%;
+   }
+   
+   .input {
+       width: 5%;
+       margin-left: 47.5%;
+       margin-bottom: 1%;
+   }
