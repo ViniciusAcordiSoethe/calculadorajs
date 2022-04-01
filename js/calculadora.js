@@ -17,7 +17,7 @@ function bhaskara(a,b,c){
     let delta = (b*b) -(4 * a * c);
 
     if (delta < 0 ){
-        return alert("Não tem Raiz Real");
+        return resposta = "Não tem raiz Real" 
     }else if (delta > 0){
         resposta.x1 = (-b + Math.sqrt(delta)) / (2*a);
         resposta.x2 = (-b - Math.sqrt(delta)) / (2*a);
@@ -26,8 +26,8 @@ function bhaskara(a,b,c){
         return resposta;
 
     }else{
-        let x0 = -b / 2* a
-        return x0
+        let resposta = -b / 2* a
+        return resposta
     }
 }
 
